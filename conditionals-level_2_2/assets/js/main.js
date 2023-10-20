@@ -14,7 +14,7 @@ const healthConcern = "Level of health concern: ";
 const healthEffect = "Level of health effect: ";
 
 function checkAirQuality() {
-	qualityPoints.textContent = inputRange.value;
+	qualityPoints.textContent = Number(inputRange.value);
 
 	if (inputRange.value <= 50) {
 		body.style.backgroundColor = "#008003";
